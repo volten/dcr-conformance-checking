@@ -1,0 +1,16 @@
+<log>
+    <trace id="1023221" title="Violation: Ticket created without ID." init="2021-08-09T00:38:12.7860000Z" description="&lt;p&gt; Ticket created without ID. Analyzed by first responder as normal event and sent to customer for resolution. Ticket is resolved and closed with satisfied customer.&lt;/p&gt;" percentage="0.00" type="Required" isAccepting="true" isScenario="true" created="2021-08-09T02:38:12.827" createdBy="100100" modified="2021-08-09T02:39:58.483" modifiedBy="100100" businessType="none">
+        <event id="Activity0" role="Customer" label="reports an event" userid="Portal:100100" user="Johannes Vaht" />
+        <event id="Activity1" role="Help Desk" label="create ticket" userid="Portal:100100" user="Johannes Vaht" />
+
+        <event id="Activity3" role="ticket system" label="assign ticket ownership" userid="Portal:100100" user="Johannes Vaht" />
+        <event id="Activity20_2" role="first level responder" label="Capture additional data" userid="Portal:100100" user="Johannes Vaht" />
+        <event id="Activity21" role="first level responder" label="Preliminary analysis" userid="Portal:100100" user="Johannes Vaht" />
+        <event id="IR_criticality" data="1" role="first level responder" label="Determine criticality of event" userid="Portal:100100" user="Johannes Vaht" />
+        <event id="Activity20_1" data="" role="Ticket owner" label="Resolve event" userid="Portal:100100" user="Johannes Vaht" />
+        <event id="Activity23" role="Ticket owner" label="Enter resolution and problem category in ticket" userid="Portal:100100" user="Johannes Vaht" />
+        <event id="Activity7" role="Ticket owner" label="send resolution to customer" userid="Portal:100100" user="Johannes Vaht" />
+        <event id="R_decision" data="1" role="Customer" label="determines if resolution is satisfactory" userid="Portal:100100" user="Johannes Vaht" />
+        <event id="Activity9" role="Ticket owner" label="ticket is closed" userid="Portal:100100" user="Johannes Vaht" />
+    </trace>
+</log>

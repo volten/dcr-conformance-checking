@@ -1,0 +1,1421 @@
+<dcrgraph title="Incident Response (8/8) Final" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-4" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#ffffff" graphType="0" exercise="false">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="200" yLoc="325"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Customer</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>0</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity6_1" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1175" yLoc="300"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity20_1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1200" yLoc="450"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Ticket owner</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>17</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="17" width="small" min="NaN" max="NaN" placeholder="ABC123" hinttext="Enter ticket ID of resolved event">text</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity7">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1475" yLoc="525"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Ticket owner</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>5</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity23">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1475" yLoc="350"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Ticket owner</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>22</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="R_decision">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1475" yLoc="750"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Customer</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData>
+                            <dataType sequence="6" width="small" placeholder="" hinttext="" dataSetList="" multiple="false" format="int">choice</dataType>
+                            <dictionary>
+                                <item label="Satisfied" value="1"/>
+                                <item label="Not satisfied" value="2"/>
+                            </dictionary>
+                            <validationRules/>
+                        </eventData>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity9">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1725" yLoc="750"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Ticket owner</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>7</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity10">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="200" yLoc="825"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>organization management</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>8</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity15" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="400" yLoc="425"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>11</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="500" yLoc="475"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Help Desk</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>1</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity2">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="425" yLoc="675"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>ticket system</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>2</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="2" width="small" min="NaN" max="NaN" placeholder="ABC123" hinttext="">text</dataType>
+                                <validationRules>
+                                    <rule id="maxLength" title="Max Length">
+                                        <customMessage>Value should be less than 7 characters and numbers</customMessage>
+                                        <parameters>
+                                            <parameter id="vmaxlength" required="true" value="7" title="Max length" type="number"/>
+                                        </parameters>
+                                    </rule>
+                                    <rule id="minLength" title="Min Length">
+                                        <customMessage>Value should be greater than 5 characters or numbers</customMessage>
+                                        <parameters>
+                                            <parameter id="vminlength" required="true" value="5" title="Min Length" type="number"/>
+                                        </parameters>
+                                    </rule>
+                                </validationRules>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity3">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="575" yLoc="675"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>ticket system</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>3</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity18" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1475" yLoc="925"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>13</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity14">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1700" yLoc="975"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>second tier respondent</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>10</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity19_1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1500" yLoc="975"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>second tier respondent</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>14</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity19" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="775" yLoc="800"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>16</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity20">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="800" yLoc="850"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>second tier respondent</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>15</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity24">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="975" yLoc="850"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>second tier respondent</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>23</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="ER_criticality">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1150" yLoc="850"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>second tier respondent</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>12</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="12" width="small" placeholder="" hinttext="" dataSetList="" multiple="false" format="int">choice</dataType>
+                                <dictionary>
+                                    <item label="Resolution" value="1"/>
+                                    <item label="Emergency" value="2"/>
+                                </dictionary>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity22" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="775" yLoc="300"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>20</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity20_2">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="800" yLoc="525"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>first level responder</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>18</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity21">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="925" yLoc="525"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>first level responder</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>19</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="IR_criticality">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="925" yLoc="350"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>first level responder</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>21</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="21" width="large" placeholder="" hinttext="" dataSetList="" multiple="false" format="int">choice</dataType>
+                                <dictionary>
+                                    <item label="Normal" value="1"/>
+                                    <item label="Escalation" value="2"/>
+                                </dictionary>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity25">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1725" yLoc="525"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Ticket owner</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>25</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="reports an event"/>
+                <label id="Resolution"/>
+                <label id="Resolve event"/>
+                <label id="send resolution to customer"/>
+                <label id="Enter resolution and problem category in ticket"/>
+                <label id="determines if resolution is satisfactory"/>
+                <label id="ticket is closed"/>
+                <label id="request immediate escalation"/>
+                <label id="New ticket"/>
+                <label id="create ticket"/>
+                <label id="creates a unique ID"/>
+                <label id="assign ticket ownership"/>
+                <label id="Emergency response"/>
+                <label id="notify incident response team and customer"/>
+                <label id="escalate to emergency response"/>
+                <label id="Escalation response"/>
+                <label id="get ownership of ticket"/>
+                <label id="Investigate event"/>
+                <label id="evaluate criticality of event"/>
+                <label id="Initial response"/>
+                <label id="Capture additional data"/>
+                <label id="Preliminary analysis"/>
+                <label id="Determine criticality of event"/>
+                <label id="notify customer of closure"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0" labelId="reports an event"/>
+                <labelMapping eventId="Activity6_1" labelId="Resolution"/>
+                <labelMapping eventId="Activity20_1" labelId="Resolve event"/>
+                <labelMapping eventId="Activity7" labelId="send resolution to customer"/>
+                <labelMapping eventId="Activity23" labelId="Enter resolution and problem category in ticket"/>
+                <labelMapping eventId="R_decision" labelId="determines if resolution is satisfactory"/>
+                <labelMapping eventId="Activity9" labelId="ticket is closed"/>
+                <labelMapping eventId="Activity10" labelId="request immediate escalation"/>
+                <labelMapping eventId="Activity15" labelId="New ticket"/>
+                <labelMapping eventId="Activity1" labelId="create ticket"/>
+                <labelMapping eventId="Activity2" labelId="creates a unique ID"/>
+                <labelMapping eventId="Activity3" labelId="assign ticket ownership"/>
+                <labelMapping eventId="Activity18" labelId="Emergency response"/>
+                <labelMapping eventId="Activity14" labelId="notify incident response team and customer"/>
+                <labelMapping eventId="Activity19_1" labelId="escalate to emergency response"/>
+                <labelMapping eventId="Activity19" labelId="Escalation response"/>
+                <labelMapping eventId="Activity20" labelId="get ownership of ticket"/>
+                <labelMapping eventId="Activity24" labelId="Investigate event"/>
+                <labelMapping eventId="ER_criticality" labelId="evaluate criticality of event"/>
+                <labelMapping eventId="Activity22" labelId="Initial response"/>
+                <labelMapping eventId="Activity20_2" labelId="Capture additional data"/>
+                <labelMapping eventId="Activity21" labelId="Preliminary analysis"/>
+                <labelMapping eventId="IR_criticality" labelId="Determine criticality of event"/>
+                <labelMapping eventId="Activity25" labelId="notify customer of closure"/>
+            </labelMappings>
+            <expressions>
+                <expression id="R_decision-path-Activity9--response" value="R_decision = 1"/>
+                <expression id="Activity19-path-Activity6_1--response" value="ER_criticality = 1"/>
+                <expression id="Activity19-path-Activity18--response" value="ER_criticality = 2"/>
+                <expression id="Activity22-path-Activity19--response" value="IR_criticality = 2"/>
+                <expression id="Activity22-path-Activity6_1--response" value="IR_criticality = 1"/>
+                <expression id="R_decision-path-Activity19--response" value="R_decision = 2"/>
+                <expression id="Activity19-path-Activity6_1--include" value="ER_criticality = 1"/>
+                <expression id="Activity19-path-Activity18--include" value="ER_criticality = 2"/>
+                <expression id="Activity22-path-Activity19--include" value="IR_criticality = 2"/>
+                <expression id="Activity22-path-Activity6_1--include" value="IR_criticality = 1"/>
+                <expression id="R_decision-path-Activity19--include" value="R_decision= 2"/>
+                <expression id="R_decision-path-Activity9--include" value="R_decision = 1"/>
+                <expression id="Activity20_1-path-Activity7--include" value="Activity2 = Activity20_1"/>
+                <expression id="Activity20_1-path-Activity23--include" value="Activity2 = Activity20_1"/>
+            </expressions>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords/>
+                <roles>
+                    <role description="" specification="">Customer</role>
+                    <role description="" specification="">first level responder</role>
+                    <role description="" specification="">Help Desk</role>
+                    <role description="" specification="">incident response team</role>
+                    <role description="" specification="">organization management</role>
+                    <role description="" specification="">response team</role>
+                    <role description="" specification="">second tier respondent</role>
+                    <role description="" specification="">Ticket owner</role>
+                    <role description="" specification="">ticket system</role>
+                </roles>
+                <groups>
+                    <group sequence="14" description="Process of creating an initial incident ticket">Ticket creation</group>
+                </groups>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>Customer reports an event to Help Desk.  Help Desk creates a ticket that captures the event, event source, initial event severity and event priority. The ticket system creates a unique ID for the event.   A first level responder is assigned ownership to the ticket. The first level responder captures additional event data and performs preliminary analysis in order to determine criticality of the event. At this level, it is either a Normal or an Escalation event.  Normal events do not affect critical production systems or require change controls prior to the implementation of a resolution.  Escalation events that affect critical production systems or require change controls must be escalated.  Organization management may request an immediate escalation without first level review – second tier respondent will create ticket.  The event is resolved and the ticket owner enters resolution and problem category into ticket. The customer receives the resolution for the ticket and confirms if the resolution is satisfactory. If confirmation is received, the ticket is closed by the ticket owner. If reporting entity evaluate the resolution as non-satisfactory, the escalation report is updated to show this event and ticket is escalated. If no confirmation is received within 1 month then ticket is closed.The ticket is assigned a second tier respondent to investigate the event.   second tier respondent perform additional analysis and re-evaluates the criticality of the ticket. If necessary, the second tier respondent is responsible for escalating the ticket to emergency response and notifying both the incident response team and the customer. Emergency Response:Events may follow the escalation chain until it is determined that an emergency response is necessary.Top-level organization management may determine that an emergency response is necessary and invoke this process directly.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">Customer reports an event to Help Desk.  
+
+Help Desk creates a ticket that captures the event, event source, initial event severity and event priority. The ticket system creates a unique ID for the event.   
+
+A first level responder is assigned ownership to the ticket. The first level responder captures additional event data and performs preliminary analysis in order to determine criticality of the event. At this level, it is either a Normal or an Escalation event.  
+
+Normal events do not affect critical production systems or require change controls prior to the implementation of a resolution.  
+
+Escalation events that affect critical production systems or require change controls must be escalated.  
+
+Organization management may request an immediate escalation without first level review – second tier respondent will create ticket.  
+
+The event is resolved and the ticket owner enters resolution and problem category into ticket. 
+
+The customer receives the resolution for the ticket and confirms if the resolution is satisfactory. If confirmation is received, the ticket is closed by the ticket owner. If reporting entity evaluate the resolution as non-satisfactory, the escalation report is updated to show this event and ticket is escalated. If no confirmation is received within 1 month then ticket is closed.
+
+The ticket is assigned a second tier respondent to investigate the event.  
+
+ second tier respondent perform additional analysis and re-evaluates the criticality of the ticket. If necessary, the second tier respondent is responsible for escalating the ticket to emergency response and notifying both the incident response team and the customer. 
+
+Emergency Response:
+Events may follow the escalation chain until it is determined that an emergency response is necessary.
+Top-level organization management may determine that an emergency response is necessary and invoke this process directly.</highlightLayer>
+                    </highlightLayers>
+                    <highlights>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="0" end="8">Customer</range>
+                                        <range start="933" end="941">Customer</range>
+                                        <range start="1643" end="1651">Customer</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Customer"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="29" end="38">Help Desk</range>
+                                        <range start="41" end="50">Help Desk</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Help Desk"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="154" end="167">ticket system</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="ticket system"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="207" end="228">first level responder</range>
+                                        <range start="270" end="291">first level responder</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="first level responder"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="790" end="806">second tier respondent</range>
+                                        <range start="1335" end="1357">second tier respondent</range>
+                                        <range start="1386" end="1394">second tier respondent</range>
+                                        <range start="1503" end="1525">second tier respondent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="second tier respondent"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="701" end="724">organization management</range>
+                                        <range start="1784" end="1807">organization management</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="organization management"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="9" end="25">reports an event</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="50" end="67">creates a ticket</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="168" end="187">creates a unique ID</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="232" end="264">assigned ownership to the ticket</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="838" end="855">event is resolved</range>
+                                        <range start="956" end="965">customer receives the resolution for the ticket</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity6_1"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="942" end="951">receives the resolution</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="985" end="1027">confirms if the resolution is satisfactory</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="R_decision"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1062" end="1098">ticket is closed by the ticket owner</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity9"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="729" end="760">request an immediate escalation</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity10"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1593" end="1604">notifying both the incident response team and the customer.</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity14"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1544" end="1588">escalating the ticket to emergency response</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity19_1"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1612" end="1623">incident response team</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="incident response team"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="864" end="927">ticket owner enters resolution and problem category into ticket</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity23"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1570" end="1588">emergency response</range>
+                                        <range start="1742" end="1760">emergency response</range>
+                                        <range start="1830" end="1846">emergency response</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="response team"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1441" end="1483">re-evaluates the criticality of the ticket</range>
+                                        <range start="1441" end="1484">re-evaluates the criticality of the ticket.</range>
+                                        <range start="1544" end="1588">escalating the ticket to emergency response</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="ER_criticality"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="292" end="322">captures additional event data</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity20_2"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="327" end="356">performs preliminary analysis</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity21"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="369" end="403">determine criticality of the event.</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="IR_criticality"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1361" end="1383">investigate the event.</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity24"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1314" end="1357">ticket is assigned a second tier respondent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity20"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="205" end="265">A first level responder is assigned ownership to the ticket.</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1--response--Activity3"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="150" end="201">The ticket system creates a unique ID for the event</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity15"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="150" end="202">The ticket system creates a unique ID for the event.</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1--response--Activity2"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="467" end="595">Normal events do not affect critical production systems or require change controls prior to the implementation of a resolution.</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity22--response--Activity6_1"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="596" end="700">Escalation events that affect critical production systems or require change controls must be escalated.</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity22--response--Activity19"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1029" end="1099">If confirmation is received, the ticket is closed by the ticket owner.</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="R_decision--response--Activity9"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1310" end="1384">The ticket is assigned a second tier respondent to investigate the event.</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity20--response--Activity24"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1623" end="1725">Events may follow the escalation chain until it is determined that an emergency response is necessary.</range>
+                                        <range start="1437" end="1604">f necessary, the second tier respondent is responsible for escalating the ticket to emergency response and notifying both the incident response team and the customer.</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity19--response--Activity18"/>
+                            </items>
+                        </highlight>
+                    </highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity1" targetId="Activity3" filterLevel="0" description="" time="" groups="" link="Activity1--condition--Activity3"/>
+                <condition sourceId="Activity1" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity15" targetId="Activity22" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity20" targetId="Activity24" filterLevel="0" description="" time="" groups="" link="Activity20--condition--Activity24"/>
+                <condition sourceId="Activity21" targetId="IR_criticality" filterLevel="0" description="" time="" groups="" link="Activity21--condition--IR_criticality"/>
+                <condition sourceId="Activity24" targetId="ER_criticality" filterLevel="0" description="" time="" groups="" link="Activity24--condition--ER_criticality"/>
+                <condition sourceId="Activity15" targetId="Activity20" filterLevel="0" description="" time="" groups="" link="Activity15--condition--Activity20"/>
+                <condition sourceId="Activity20_1" targetId="Activity7" filterLevel="0" description="" time="" groups="" link="Activity20_1--condition--Activity7"/>
+                <condition sourceId="Activity20_1" targetId="Activity23" filterLevel="0" description="" time="" groups="" link="Activity20_1--condition--Activity23"/>
+                <condition sourceId="Activity7" targetId="Activity25" filterLevel="0" description="" time="P1M" groups="" link="Activity7--condition--Activity25"/>
+                <condition sourceId="Activity23" targetId="Activity7" filterLevel="0" description="" time="" groups="" link="Activity23--condition--Activity7"/>
+            </conditions>
+            <responses>
+                <response sourceId="R_decision" targetId="Activity9" filterLevel="0" description="f confirmation is received, the ticket is closed by the ticket owner." time="" groups="" expressionId="R_decision-path-Activity9--response"/>
+                <response sourceId="Activity1" targetId="Activity2" filterLevel="0" description="The ticket system creates a unique ID for the event." time="" groups=""/>
+                <response sourceId="Activity1" targetId="Activity3" filterLevel="0" description="A first level responder is assigned ownership to the ticket." time="" groups=""/>
+                <response sourceId="Activity24" targetId="ER_criticality" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity19" targetId="Activity6_1" filterLevel="0" description="" time="" groups="" expressionId="Activity19-path-Activity6_1--response"/>
+                <response sourceId="Activity19" targetId="Activity18" filterLevel="0" description="Events may follow the escalation chain until it is determined that an emergency response is necessary." time="" groups="" expressionId="Activity19-path-Activity18--response"/>
+                <response sourceId="Activity21" targetId="IR_criticality" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity22" targetId="Activity19" filterLevel="0" description="Escalation events that affect critical production systems or require change controls must be escalated." time="" groups="" expressionId="Activity22-path-Activity19--response"/>
+                <response sourceId="Activity22" targetId="Activity6_1" filterLevel="0" description="Normal events do not affect critical production systems or require change controls prior to the implementation of a resolution." time="" groups="" expressionId="Activity22-path-Activity6_1--response"/>
+                <response sourceId="Activity20" targetId="Activity24" filterLevel="0" description="perform additional analysis" time="" groups=""/>
+                <response sourceId="Activity0" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity0" targetId="Activity22" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity25" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="R_decision" targetId="Activity19" filterLevel="0" description="" time="" groups="" expressionId="R_decision-path-Activity19--response"/>
+                <response sourceId="Activity20_1" targetId="Activity7" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity20_1" targetId="Activity23" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity10" targetId="Activity19" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity7" targetId="R_decision" filterLevel="0" description="" time="P1M" groups=""/>
+                <response sourceId="Activity7" targetId="Activity25" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity10" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity20_2" targetId="Activity21" filterLevel="0" description="" time="" groups=""/>
+            </responses>
+            <coresponses/>
+            <excludes>
+                <exclude sourceId="Activity19" targetId="Activity22" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity25" targetId="R_decision" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity10" targetId="Activity0" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity0" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="R_decision" targetId="Activity25" filterLevel="0" description="" time="" groups=""/>
+            </excludes>
+            <includes>
+                <include sourceId="Activity0" targetId="Activity22" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity19" targetId="Activity6_1" filterLevel="0" description="" time="" groups="" expressionId="Activity19-path-Activity6_1--include"/>
+                <include sourceId="Activity19" targetId="Activity18" filterLevel="0" description="" time="" groups="" expressionId="Activity19-path-Activity18--include"/>
+                <include sourceId="Activity22" targetId="Activity19" filterLevel="0" description="" time="" groups="" expressionId="Activity22-path-Activity19--include"/>
+                <include sourceId="Activity22" targetId="Activity6_1" filterLevel="0" description="" time="" groups="" expressionId="Activity22-path-Activity6_1--include"/>
+                <include sourceId="Activity0" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity1" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity1" targetId="Activity3" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity25" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="R_decision" targetId="Activity19" filterLevel="0" description="" time="" groups="" expressionId="R_decision-path-Activity19--include"/>
+                <include sourceId="Activity10" targetId="Activity19" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="R_decision" targetId="Activity9" filterLevel="0" description="" time="" groups="" expressionId="R_decision-path-Activity9--include"/>
+                <include sourceId="Activity7" targetId="R_decision" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity7" targetId="Activity25" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity10" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity20_1" targetId="Activity7" filterLevel="0" description="" time="" groups="" expressionId="Activity20_1-path-Activity7--include"/>
+                <include sourceId="Activity20_1" targetId="Activity23" filterLevel="0" description="" time="" groups="" expressionId="Activity20_1-path-Activity23--include"/>
+            </includes>
+            <milestones>
+                <milestone sourceId="Activity1" targetId="Activity3" filterLevel="0" description="" time="" groups="" link="Activity1--condition--Activity3"/>
+                <milestone sourceId="Activity20" targetId="Activity24" filterLevel="0" description="" time="" groups="" link="Activity20--condition--Activity24"/>
+                <milestone sourceId="Activity21" targetId="IR_criticality" filterLevel="0" description="" time="" groups="" link="Activity21--condition--IR_criticality"/>
+                <milestone sourceId="Activity24" targetId="ER_criticality" filterLevel="0" description="" time="" groups="" link="Activity24--condition--ER_criticality"/>
+                <milestone sourceId="Activity15" targetId="Activity20" filterLevel="0" description="" time="" groups="" link="Activity15--condition--Activity20"/>
+                <milestone sourceId="Activity20_1" targetId="Activity7" filterLevel="0" description="" time="" groups="" link="Activity20_1--condition--Activity7"/>
+                <milestone sourceId="Activity20_1" targetId="Activity23" filterLevel="0" description="" time="" groups="" link="Activity20_1--condition--Activity23"/>
+                <milestone sourceId="Activity7" targetId="Activity25" filterLevel="0" description="" time="P1M" groups="" link="Activity7--condition--Activity25"/>
+                <milestone sourceId="Activity23" targetId="Activity7" filterLevel="0" description="" time="" groups="" link="Activity23--condition--Activity7"/>
+            </milestones>
+            <spawns/>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore/>
+            <executed/>
+            <included>
+                <event id="Activity0"/>
+                <event id="Activity20_1"/>
+                <event id="Activity10"/>
+                <event id="Activity1"/>
+                <event id="Activity20"/>
+                <event id="Activity24"/>
+                <event id="ER_criticality"/>
+                <event id="Activity20_2"/>
+                <event id="Activity21"/>
+                <event id="IR_criticality"/>
+            </included>
+            <pendingResponses/>
+        </marking>
+    </runtime>
+</dcrgraph>
